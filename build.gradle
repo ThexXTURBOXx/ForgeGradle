@@ -96,6 +96,7 @@ dependencies {
     compileOnly 'com.mojang:authlib:1.5.16'
     compileOnly('net.minecraft:launchwrapper:1.12'){
      exclude group: 'org.ow2.asm', module: 'asm-debug-all'
+     exclude group: 'org.lwjgl.lwjgl', module: 'lwjgl'
     }
 
     compileOnly "org.jetbrains.kotlin:kotlin-gradle-plugin:1.1.3-2"
